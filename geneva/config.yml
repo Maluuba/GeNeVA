@@ -1,0 +1,17 @@
+glove_path: '../GeNeVA_datasets/data/CoDraw_iCLEVR/glove_codraw_iclevr.txt'
+
+codraw: '../GeNeVA_datasets/data/CoDraw/codraw_train.h5'
+codraw_background: '../GeNeVA_datasets/data/CoDraw/background.png'
+codraw_objects: '../GeNeVA_datasets/data/CoDraw/objects.txt'
+codraw_test: '../GeNeVA_datasets/data/CoDraw/codraw_test.h5'
+codraw_val: '../GeNeVA_datasets/data/CoDraw/codraw_val.h5'
+
+iclevr: '../GeNeVA_datasets/data/iCLEVR/clevr_train.h5'
+iclevr_background: '../GeNeVA_datasets/data/iCLEVR/background.png'
+iclevr_objects: '../GeNeVA_datasets/data/iCLEVR/objects.txt'
+iclevr_test: '../GeNeVA_datasets/data/iCLEVR/clevr_test.h5'
+iclevr_val: '../GeNeVA_datasets/data/iCLEVR/clevr_val.h5'
+
+codraw_inception_objects: 'models/codraw_inception_best_checkpoint.pth'
+
+iclevr_inception_objects: 'models/iclevr_inception_best_checkpoint.pth'

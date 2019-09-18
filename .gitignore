@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.swp
+
+*.pth
+
+GeNeVA.egg-info/
+build/
+dist/

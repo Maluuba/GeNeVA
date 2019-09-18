@@ -1,0 +1,16 @@
+name: geneva
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - click=6.7=py36_0
+  - cudatoolkit=9.0=h13b8566_0
+  - h5py=2.8.0=py36h8d01980_0
+  - opencv=3.4.1=py36h6fd60c2_3
+  - pyyaml=3.13=py36h14c3975_0
+  - scikit-learn=0.19.1=py36hedc7406_0
+  - tqdm=4.24.0=py36_0
+  - pytorch=0.4.1=py36_cuda9.0.176_cudnn7.1.2_1
+  - torchvision=0.2.1=py36_1
+  - pip:
+    - visdom==0.1.8.5
